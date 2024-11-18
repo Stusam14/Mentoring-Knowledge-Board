@@ -1,0 +1,38 @@
+.text{
+    position: absolute;
+    width: 320px;
+    height: 8.5%; 
+    border: 2px;
+    padding: 10px;
+    cursor: grab;
+    overflow: hidden;
+    background-color: transparent;
+}
+
+.text-input {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    position: absolute;
+    width: 92.5%;
+    height: 100%;
+    right: 0%;
+    border: none;
+    resize: none;
+    font-size: 16px;
+    font-weight: 800;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.delete-button{
+    position: absolute;
+    color: rgb(0, 0, 0);
+    margin-top: 1.7%;
+    height: 18px;
+    width: 25px;
+    left: 0%;
+}
+ .cancel-symbol{
+    font-size: 16px;
+    font-weight: 700;
+ }

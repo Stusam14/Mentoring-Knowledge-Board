@@ -1,0 +1,52 @@
+.analytics{
+    margin-top: 5%;
+    display: flex;
+    justify-content: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+}
+
+.team, .session{
+    width: 180px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: rgb(164, 197, 223);
+}
+
+.search{
+    display: flex;
+    justify-content: column;
+    justify-content: center;
+    align-items: center; 
+    gap: 3%;   
+}
+
+.search input{
+    width: 160px;
+    height: 20px;
+    margin-left: 5px;
+    margin-top: 3px;
+    border: 0%;
+    border-color: rgb(164, 197, 223);
+}
+
+.search .submit-input{
+    width: 100px;
+    height: 30px;
+    background-color: green;
+    color: white;
+}
+
+
+.search h3{
+    color: rgb(82, 110, 132);
+}
+
+.attendance, .teamLabel{
+    margin-left: 5%;
+}
+
+.attendance h3{
+    color: rgb(82, 110, 132);
+}
